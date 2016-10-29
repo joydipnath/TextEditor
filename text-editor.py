@@ -56,7 +56,6 @@ class TextSection(Text):
 
         # Render to Screen
         self.pack(fill=BOTH)
-
         self.clear_text()
 
     def insert_text(self, text):
